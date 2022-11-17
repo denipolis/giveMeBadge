@@ -2,6 +2,9 @@
   "name": "give-me-badge",
   "version": "1.0.0",
   "main": "src/main.js",
+  "author": "denipolis",
+  "repository": "https://github.com/denipolis/giveMeBadge",
+  "description": "Simple NodeJS application that can help get you new discord \"Active Developer Badge\".",
   "license": "MIT",
   "scripts": {
     "build": "yarn ncc build src/main.js -o dist/cache/ && yarn pkg -t node18-linux,node18-macos,node18-win dist/cache/index.js --out-path dist/build/ --compress gzip"
