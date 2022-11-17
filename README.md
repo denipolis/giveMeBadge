@@ -8,12 +8,14 @@
 3. Go to **Bot** page and press "Add Bot".
 4. Press **Reset Token** and copy it.
 5. Scroll down and **tick all privilged gateway intents**.
+
 ![Discord Gateway Intents](https://imgur.com/71MROqg.png "Discord Gateway Intents")
 6. Create **discord guild** and enable **community mode**.
 7. Download latest version of [**GiveMeBadge**](https://github.com/denipolis/giveMeBadge/releases/ "**GiveMeBadge**").
 8. Open application, paste token (4).
 9. Application will give you invitation link, **invite bot** in guild using it.
 10. Go to your discord guild and write **/badge**.
+
 ![Method Worked](https://imgur.com/ilti3Cq.png)
 
 ------------
