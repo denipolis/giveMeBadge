@@ -8,18 +8,17 @@ const rest = new REST({ version: '10' })
 
 const init = async () => {
     const TOKEN = await input.text('Token > ')
-
+    
+    rest.setToken(TOKEN)
     await client.login(TOKEN).catch(() => {
-        console.log('Token that you provided is invalid. Try again!')
+        console.log('Token that you provided is invalid. Try again! - ' + TOKEN)
         init()
     })
-
-    rest.setToken(TOKEN)
 }
 
 console.log('GiveMeBadge | https://github.com/denipolis/giveMeBadge');
 
-init()
+(async() => {await init()})()
 
 const commands = [
     {
