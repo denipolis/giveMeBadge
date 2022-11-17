@@ -17,7 +17,7 @@ const init = async () => {
     rest.setToken(TOKEN)
 }
 
-console.log('GiveMeBadge | https://github.com/denipolis');
+console.log('GiveMeBadge | https://github.com/denipolis/giveMeBadge');
 
 init()
 
