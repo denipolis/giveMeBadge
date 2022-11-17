@@ -25,4 +25,4 @@
 3. Build: `yarn build`
 
 ### If you have any issue
-Go to the [tab on GitHub](https://github.com/denipolis/giveMeBadge/issues "**tab on GitHub**") and create a new one. 
+Go to the [issues tab on GitHub](https://github.com/denipolis/giveMeBadge/issues "**issues tab on GitHub**") and create a new one. 
