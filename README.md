@@ -1,7 +1,9 @@
 <h1 align="center">GiveMeBadge</h1>
 
-#### Simple NodeJS application that can help get you new discord "Active Developer Badge".
+### Simple NodeJS application that can help get you new discord "Active Developer Badge".
 ![](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white) ![](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E )![](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white) ![](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
+
+------------
 
 ### How to use:
 1. Go to [Discord Developers](https://discord.com/developers/applications "Discord Developers").
