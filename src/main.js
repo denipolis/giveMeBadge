@@ -1,5 +1,5 @@
-import { Client, Events, GatewayIntentBits, REST, Routes } from 'discord.js'
-import input from 'input'
+const { Client, Events, GatewayIntentBits, REST, Routes } = require('discord.js')
+const input = require('input')
 
 const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildIntegrations],
@@ -17,8 +17,9 @@ const init = async () => {
     rest.setToken(TOKEN)
 }
 
-console.log('GiveMeBadge | https://github.com/denipolis')
-await init()
+console.log('GiveMeBadge | https://github.com/denipolis');
+
+init()
 
 const commands = [
     {

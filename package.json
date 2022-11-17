@@ -1,14 +1,18 @@
 {
-  "name": "yoooo-man",
+  "name": "give-me-badge",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/main.js",
   "license": "MIT",
-  "type": "module",
+  "scripts": {
+    "build": "yarn ncc build src/main.js -o dist/cache/ && yarn pkg -t node18-linux,node18-macos,node18-win dist/cache/index.js --out-path dist/build/ --compress gzip"
+  },
   "dependencies": {
     "discord.js": "^14.6.0",
     "input": "^1.0.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "pkg": "^5.8.0",
+    "@vercel/ncc": "^0.34.0"
   }
 }
