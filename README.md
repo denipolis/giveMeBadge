@@ -7,16 +7,14 @@
 2. Create **new application** (you can use any name for it).
 3. Go to **Bot** page and press "Add Bot".
 4. Press **Reset Token** and copy it.
-5. Scroll down and tick all privilged gateway intents
+5. Scroll down and **tick all privilged gateway intents**.
 ![Discord Gateway Intents](https://imgur.com/71MROqg.png "Discord Gateway Intents")
-6. Go to **OAuth2 > URL Generator**. Tick **bot** and **Administrator**.
-7. Create **discord guild** and enable **community mode**.
-8. **Copy invite link** that discord gave you. **Paste it in address bar** and invite bot to your discord guild.
-9. Download latest version of [**GiveMeBadge**](https://github.com/denipolis/giveMeBadge/releases/ "**GiveMeBadge**").
-10. Open application, paste token (4).
-11. Go to your discord server and write **/badge**.
-![Method Worked](https://imgur.com/8UVfd2d.png)
-12. Within **24 hours** you can take ["Active Developer Badge"](https://discord.com/developers/active-developer "Active Developer Badge")
+6. Create **discord guild** and enable **community mode**.
+7. Download latest version of [**GiveMeBadge**](https://github.com/denipolis/giveMeBadge/releases/ "**GiveMeBadge**").
+8. Open application, paste token (4).
+9. Application will give you invitation link, **invite bot** in guild using it.
+10. Go to your discord guild and write **/badge**.
+![Method Worked](https://imgur.com/ilti3Cq.png)
 
 ------------
 
