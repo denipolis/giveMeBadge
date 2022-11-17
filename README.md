@@ -6,21 +6,23 @@
 ### How to use:
 1. Go to [Discord Developers](https://discord.com/developers/applications "Discord Developers").
 2. Create **new application** (you can use any name for it).
-3. Go to **Bot** page and press "Add Bot".
-4. Press **Reset Token** and copy it.
+3. Go to **Bot** page and clik **"Add Bot"**.
+4. Click **Reset Token** to generate token for your bot then copy it to your clipboard.
 5. Scroll down and **tick all privilged gateway intents**.
 ![Discord Gateway Intents](https://imgur.com/71MROqg.png "Discord Gateway Intents")
-6. Create **discord guild** and enable **community mode**.
-7. Download latest version of [**GiveMeBadge**](https://github.com/denipolis/giveMeBadge/releases/ "**GiveMeBadge**").
-8. Open app, **paste token (using Right Mouse Button)** and press **Enter**.
-9. Wait a moment... Application will give you **invitation link**, **invite bot** in guild using it.
-10. Go to your discord guild and write **/badge**.
+6. Create **discord server** (or your existing) and enable **community mode** in server settings.
+7. Download latest version of [**GiveMeBadge**](https://github.com/denipolis/giveMeBadge/releases/ "**GiveMeBadge**") for your platform **(Windows, MacOS, Linux)**.
+8. Open app, **paste token from clipboard (using Right Mouse Button)** and press **Enter**.
+9. Wait a moment... If you entered the correct token app will give you **invitation link**, join bot to server using it.
+10. Go to your discord server and write **/badge** in any available channel.
 ![Method Worked](https://imgur.com/ilti3Cq.png)
 
 ------------
-
 
 ### Building from sources:
 1. Clone source code: `git clone https://github.com/denipolis/giveMeBadge.git`
 2. Install dependencies: `yarn install`
 3. Build: `yarn build`
+
+### If you have any issue
+Go to the [tab on GitHub](https://github.com/denipolis/giveMeBadge/issues "**tab on GitHub**") and create a new one. 
