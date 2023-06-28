@@ -44,6 +44,8 @@ client.on(Events.ClientReady, async () => {
 client.on(Events.InteractionCreate, async (interaction) => {
     if (!interaction.isChatInputCommand()) return
 
-    if (interaction.commandName === 'badge')
+    if (interaction.commandName === 'badge'){
         await interaction.reply(`**Looks like it's worked!** ✅\n\nNow you have to wait approximately 24 hours to take \"Active Developer Badge\".\n\nUseful links 🔗\n> Take badge - <https://discord.com/developers/active-developer>\n> Active Developer Badge FAQ - <https://support-dev.discord.com/hc/en-us/articles/10113997751447-Active-Developer-Badge>\n`)
+        console.log(`Nice, that's worked! Now you can close this application!`)
+    }
 })
